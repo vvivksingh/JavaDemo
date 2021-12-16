@@ -6,5 +6,6 @@ class Demo{
 		// This line is added on remote repository.
 		//this line is added locally to raise conflictgit
 		//this line added remotely to raise conflict
+		//feature branch added.
 	}
 }
