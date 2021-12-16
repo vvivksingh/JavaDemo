@@ -1,0 +1,27 @@
+[1mdiff --cc Demo.java[m
+[1mindex 6b1b414,b314704..0000000[m
+[1m--- a/Demo.java[m
+[1m+++ b/Demo.java[m
+[36m@@@ -4,6 -4,6 +4,10 @@@[m [mclass Demo[m
+  		System.out.println("Hello World !");[m
+  		// this file is edited in IntelliJ and pushed using IntellijJ teriminal[m
+  		// This line is added on remote repository.[m
+[32m++<<<<<<< HEAD[m
+[32m +		//this line is added locally to raise conflictgit[m
+[32m++=======[m
+[32m+ 		//this line added remotely to raise conflict[m
+[32m++>>>>>>> 99fe33296a780381fddff2d55fbbcc0a8fb14d65[m
+  	}[m
+  }[m
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex 6e7ed96..0861f2d 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -6,6 +6,7 @@[m
+   <component name="ChangeListManager">[m
+     <list default="true" id="7f00e8f9-422b-4daa-9d52-4898721ebb94" name="Changes" comment="">[m
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.java" afterDir="false" />[m
+     </list>[m
+     <option name="SHOW_DIALOG" value="false" />[m
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />[m
