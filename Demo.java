@@ -7,5 +7,6 @@ class Demo{
 		//this line is added locally to raise conflictgit
 		//this line added remotely to raise conflict
 		//feature branch added.
+		//line added on feature branch
 	}
 }
